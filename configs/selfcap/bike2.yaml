@@ -1,0 +1,11 @@
+_base_: base.yaml
+num_inducing: 15
+init_crop_bbox: [-1.8999, -0.9999, 0.8957, 4.35, 2.8, 6.3]
+init_fg_target_points: 15000
+kalman_num_anchors: 3
+extraction:
+  thin_structures: true
+video:
+  # The path rides low and pitched down at a ground-level subject, where a
+  # deeper clear would cut into the floor.
+  orbit_clear_fraction: 0.3

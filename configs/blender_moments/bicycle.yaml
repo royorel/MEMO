@@ -1,0 +1,5 @@
+_base_: base.yaml
+num_inducing: 20
+max_culling_images: 1000
+extraction:
+  thin_structures: true

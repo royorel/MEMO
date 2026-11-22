@@ -1,0 +1,5 @@
+_base_: base.yaml
+num_inducing: 20
+init_crop_bbox: [-4.2353, -0.6937, -4.3548, 1.7261, 2.853, 1.2325]
+init_fg_target_points: 15000
+kalman_num_anchors: 3

@@ -1,0 +1,11 @@
+# Python bytecode and extension build products
+__pycache__/
+*.pyc
+build/
+*.egg-info/
+*.so
+
+# Data, models, and outputs
+/data/
+/models/
+/output/

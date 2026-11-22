@@ -1,0 +1,16 @@
+# Settings shared by the selfcap scenes.
+
+_base_: ../base.yaml
+init_method: kalman_multi
+max_culling_images: 1440
+white_background: false
+near_camera_prune_extent: 0.15
+static_background_ply: background.ply
+video:
+  trajectory: camera_arc
+  path_mode: sweep
+  coverage: 0.9
+  near_camera_prune: true
+  near_camera_prune_extent: 0.15
+  orbit_clear_fraction: 0.5
+  fps: 30

@@ -1,0 +1,9 @@
+_base_: base.yaml
+num_inducing: 20
+max_culling_images: 1000
+extraction:
+  thin_structures: true
+video:
+  # The foliage meshes into many small islands, which the component filter
+  # would delete.
+  min_component_faces: 0

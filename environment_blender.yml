@@ -1,0 +1,16 @@
+# Conda env for the video script's default renderer, which renders the mesh
+# and normal panels with Blender. The video script calls it as a subprocess,
+# so it is never activated by hand.
+#
+# numpy must stay below 2.0, because bpy's compiled extensions are built
+# against the numpy 1.x ABI.
+
+name: memo-blender
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - bpy==4.5.9
+      - numpy<2

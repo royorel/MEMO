@@ -1,0 +1,4 @@
+_base_: base.yaml
+num_inducing: 50
+kalman_num_anchors: 1
+num_inducing_rot: 30

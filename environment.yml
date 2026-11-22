@@ -1,0 +1,31 @@
+# Conda env for MEMO: data preparation, training, rendering, mesh extraction,
+# and evaluation.
+#
+# Don't `conda env create -f` this directly. Use `bash install.sh`: after
+# creating this env it installs torch and torchvision built for the local
+# CUDA toolkit, then the torch-dependent packages and the CUDA extensions,
+# built against that torch.
+#
+# ffmpeg comes from conda-forge, whose build includes the libaom, libx264,
+# and libx265 encoders the video script uses.
+
+name: memo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ffmpeg
+  - pip:
+      - numpy>=2
+      - plyfile
+      - trimesh
+      - lmdb
+      - pyyaml
+      - pillow
+      - tqdm
+      - matplotlib
+      - huggingface_hub
+      - einops
+      - dacite
+      - ninja

@@ -1,0 +1,19 @@
+# Settings shared by the n3d scenes.
+
+_base_: ../base.yaml
+init_method: kalman
+num_inducing: 50
+max_culling_images: 1200
+white_background: false
+num_inducing_rot: 30
+regularization_from_iter: 2000
+static_background_ply: background.ply
+video:
+  trajectory: camera_arc
+  path_mode: sweep
+  coverage: 0.9
+  near_camera_prune: true
+  near_camera_prune_extent: 0.15
+  orbit_clear_fraction: 0.6
+  crop_max_edge_mult: 0.6
+  fps: 30

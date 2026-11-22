@@ -1,0 +1,14 @@
+# Settings shared by the blender_moments scenes.
+
+_base_: ../base.yaml
+init_method: kalman_multi
+white_background: true
+kalman_num_anchors: 20
+video:
+  trajectory: orbit
+  world_up: z-up
+  arc: full
+  elevation: 30.0
+  start_angle: 0.0
+  direction: cw
+  fps: 25
