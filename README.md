@@ -1,7 +1,7 @@
 <h1 align="center">A Mesh for Every Moment</h1>
 
 <h3 align="center">
-  <a href="https://homes.cs.washington.edu/~royorel/">Roy Or-El</a><sup>1</sup> &nbsp;&nbsp;
+  <a href="https://royorel.github.io/">Roy Or-El</a><sup>1</sup> &nbsp;&nbsp;
   <a href="https://jjparkcv.github.io/">Jeong Joon Park</a><sup>2</sup> &nbsp;&nbsp;
   <a href="https://www.irakemelmacher.com/">Ira Kemelmacher-Shlizerman</a><sup>1</sup>
 </h3>
